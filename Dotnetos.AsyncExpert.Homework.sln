@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnetos.AsyncExpert.Homework.Module01.Benchmark", "Module 01\Dotnetos.AsyncExpert.Homework.Module01.Benchmark\Dotnetos.AsyncExpert.Homework.Module01.Benchmark.csproj", "{1BD294B0-E99B-403C-AB8D-60CD3BA4D429}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnetos.AsyncExpert.Homework.Module01.Benchmark", "Module 01\Dotnetos.AsyncExpert.Homework.Module01.Benchmark\Dotnetos.AsyncExpert.Homework.Module01.Benchmark.csproj", "{1BD294B0-E99B-403C-AB8D-60CD3BA4D429}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fibonacci.Fs", "Module 01\Fibonacci.Fs\Fibonacci.Fs.fsproj", "{C0ADCF4A-AD63-4DA0-A4A4-C2112C921D7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnetos.AsyncExpert.Homework.Module01.Benchmark.Tests", "Module 01\Dotnetos.AsyncExpert.Homework.Module01.Benchmark.Tests\Dotnetos.AsyncExpert.Homework.Module01.Benchmark.Tests.csproj", "{216669CC-F660-47A9-B7D9-D553F63A244F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,30 @@ Global
 		{1BD294B0-E99B-403C-AB8D-60CD3BA4D429}.Release|x64.Build.0 = Release|Any CPU
 		{1BD294B0-E99B-403C-AB8D-60CD3BA4D429}.Release|x86.ActiveCfg = Release|Any CPU
 		{1BD294B0-E99B-403C-AB8D-60CD3BA4D429}.Release|x86.Build.0 = Release|Any CPU
+		{C0ADCF4A-AD63-4DA0-A4A4-C2112C921D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0ADCF4A-AD63-4DA0-A4A4-C2112C921D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0ADCF4A-AD63-4DA0-A4A4-C2112C921D7C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C0ADCF4A-AD63-4DA0-A4A4-C2112C921D7C}.Debug|x64.Build.0 = Debug|Any CPU
+		{C0ADCF4A-AD63-4DA0-A4A4-C2112C921D7C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C0ADCF4A-AD63-4DA0-A4A4-C2112C921D7C}.Debug|x86.Build.0 = Debug|Any CPU
+		{C0ADCF4A-AD63-4DA0-A4A4-C2112C921D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0ADCF4A-AD63-4DA0-A4A4-C2112C921D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0ADCF4A-AD63-4DA0-A4A4-C2112C921D7C}.Release|x64.ActiveCfg = Release|Any CPU
+		{C0ADCF4A-AD63-4DA0-A4A4-C2112C921D7C}.Release|x64.Build.0 = Release|Any CPU
+		{C0ADCF4A-AD63-4DA0-A4A4-C2112C921D7C}.Release|x86.ActiveCfg = Release|Any CPU
+		{C0ADCF4A-AD63-4DA0-A4A4-C2112C921D7C}.Release|x86.Build.0 = Release|Any CPU
+		{216669CC-F660-47A9-B7D9-D553F63A244F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216669CC-F660-47A9-B7D9-D553F63A244F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216669CC-F660-47A9-B7D9-D553F63A244F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{216669CC-F660-47A9-B7D9-D553F63A244F}.Debug|x64.Build.0 = Debug|Any CPU
+		{216669CC-F660-47A9-B7D9-D553F63A244F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{216669CC-F660-47A9-B7D9-D553F63A244F}.Debug|x86.Build.0 = Debug|Any CPU
+		{216669CC-F660-47A9-B7D9-D553F63A244F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216669CC-F660-47A9-B7D9-D553F63A244F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{216669CC-F660-47A9-B7D9-D553F63A244F}.Release|x64.ActiveCfg = Release|Any CPU
+		{216669CC-F660-47A9-B7D9-D553F63A244F}.Release|x64.Build.0 = Release|Any CPU
+		{216669CC-F660-47A9-B7D9-D553F63A244F}.Release|x86.ActiveCfg = Release|Any CPU
+		{216669CC-F660-47A9-B7D9-D553F63A244F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
