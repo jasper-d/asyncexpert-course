@@ -8,11 +8,13 @@ namespace Dotnetos.AsyncExpert.Homework.Module01.Benchmark.Tests
     {
         public static IEnumerable<object[]> GetTestData()
         {
+            yield return new object[] { 0, 0 };
             yield return new object[] { 1, 1 };
             yield return new object[] { 2, 1 };
             yield return new object[] { 3, 2 };
             yield return new object[] { 4, 3 };
             yield return new object[] { 5, 5 };
+            yield return new object[] { 6, 8 };
         }
 
         [Theory]

@@ -21,6 +21,7 @@ namespace Dotnetos.AsyncExpert.Homework.Module01.Benchmark
         [ArgumentsSource(nameof(Data))]
         public ulong Recursive(ulong n)
         {
+            if (n == 0) return 0;
             if (n == 1 || n == 2) return 1;
             return Recursive(n - 2) + Recursive(n - 1);
         }
@@ -40,15 +41,16 @@ namespace Dotnetos.AsyncExpert.Homework.Module01.Benchmark
         [MethodImpl(MethodImplOptions.NoInlining)]
         private static ulong Compute(ulong n)
         {
-            ulong head = 0;
+            if (n == 0) return 0;
+            ulong head = 1;
             ulong tail = 1;
-            for (ulong i = 0; i < n; i++)
+            for (ulong i = 2; i < n; i++)
             {
                 ulong carry = head;
                 head = tail;
                 tail += carry;
             }
-            return head;
+            return tail;
         }
 
         [Benchmark]
